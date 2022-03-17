@@ -26,7 +26,7 @@ def carregar_df_2021():
     }
     return pd.read_csv(r'C:\Users\liora\Downloads\CEAP2021.csv', sep=';', dtype=types)
 
-def dados_nulos(df):
+def verificar_dados_nulos(df):
     return (df.isnull().sum() / df.shape[0]).sort_values(ascending=False)
 
 
