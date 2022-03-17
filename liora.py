@@ -26,8 +26,22 @@ def carregar_df_2021():
     }
     return pd.read_csv(r'C:\Users\liora\Downloads\CEAP2021.csv', sep=';', dtype=types)
 
+
+def metodo_describe(df):
+    return df.describre()
+
+
 def verificar_dados_nulos(df):
     return (df.isnull().sum() / df.shape[0]).sort_values(ascending=False)
 
 
+def categoria_despesa_onerosa(df):
+    return df.groupby(['txtDescricao'])[ 'vlrLiquido'].sum().sort_values(ascending=False).head(3)
 
+
+def trecho_viagem_recorrente(df):
+    return df['txtTrecho'].value_counts().head(3)
+
+
+def extra_parlamentar_restituição(df):
+    return df.groupby(['txtDescricao', 'txNomeParlamentar'])['vlrRestituicao'].sum().sort_values(ascending=False).head(10)
