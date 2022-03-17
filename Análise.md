@@ -1,7 +1,6 @@
 # O que é a Cota Parlamentar?
 
-A seguir, são expostas as explicações pertinentes a cada elemento de dado publicado como "Dados Abertos" acerca das despesas realizadas e publicadas na Transparência, quanto ao uso da CEAP (Cota para o Exercício da Atividade Parlamentar). Essas despesas se confirmam por meio de lançamento de débitos contra a cota do deputado e podem decorrer em razão de uma das causas a seguir: pelo reembolso de documentos fiscais emitidos (Notas Fiscais, Recibos ou Despesa no Exterior); ou pelo custeio de despesas telefônicas; ou pelo débito de requisição de serviços postais; ou pela emissão de bilhetes aéreos.
-
+A cota parlamentar é o valor que os membros do Poder Legislativo (deputados federais e estaduais, senadores e vereadores) têm direito a receber para cobrir despesas em função da sua atividade como parlamentar (agente público). O nome atual usado para se referir ao benefício é Cota para Exercício de Atividade Parlamentar (CEAP), na Câmara dos Deputados, e Cota para o Exercício da Atividade Parlamentar dos Senadores (CEAPS), no Senado Federal. Na Câmara, recebe-se um adicional caso o deputado exerça a função de Líder, Vice-líder ou Suplente de Secretário da Mesa – as chamadas cotas suplementares;
 
 # Quais despesas a Cota Parlamentar cobre?
 
