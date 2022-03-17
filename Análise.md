@@ -38,67 +38,67 @@ Deputado. (§ 2 do Artigo 13)
 
 # Dicionários dos Dados
 
-> txNomeParlamentar - Nome adotado pelo Parlamentar ao tomar posse do seu mandato
+> **txNomeParlamentar** - Nome adotado pelo Parlamentar ao tomar posse do seu mandato
 
-> cpf - em caso de partidos políticos está ausente
+> **cpf** - em caso de partidos políticos está ausente
 
-> ideCadastro - Número que identifica unicamente um deputado federal na CD
+> **ideCadastro** - Número que identifica unicamente um deputado federal na CD
 
-> nuCarteiraParlamentar - Documento usado para identificar um deputado federal na CD. Pode alterar a cada Legislatura nova.
+> **nuCarteiraParlamentar** - Documento usado para identificar um deputado federal na CD. Pode alterar a cada Legislatura nova.
 
-> nuLegislatura - número da legislatura
+> **nuLegislatura** - número da legislatura
 
-> sgUF - No contexto da cota CEAP, representa a unidade da federação pela qual o deputado foi eleito e é utilizada para definir o valor da cota a que o deputado tem
+> **sgUF** - No contexto da cota CEAP, representa a unidade da federação pela qual o deputado foi eleito e é utilizada para definir o valor da cota a que o deputado tem
 
-> sgPartido - sigla do Partido do parlamentar
+> **sgPartido** - sigla do Partido do parlamentar
 
-> codLegislatura - código da legislatura
+> **codLegislatura** - código da legislatura
 
-> numSubCota - Número da Subcota. Representa o código do Tipo de Despesa referente à despesa realizada pelo deputado e comprovada por meio da emissão de um documento fiscal, a qual é debitada na cota do deputado.
+> **numSubCota** - Número da Subcota. Representa o código do Tipo de Despesa referente à despesa realizada pelo deputado e comprovada por meio da emissão de um documento fiscal, a qual é debitada na cota do deputado.
 
-> txtDescricao - O seu conteúdo é a descrição do Tipo de Despesa relativo à despesa em questão
+> **txtDescricao** - O seu conteúdo é a descrição do Tipo de Despesa relativo à despesa em questão
 
-> numEspecificacaoSubCota - Número da Especificação da Subcota. Há despesas cujo Tipo de Despesa necessita ter uma especificação mais detalhada (por exemplo, “Combustível”). O conteúdo deste dado representa o código desta especificação mais detalhada.
+> **numEspecificacaoSubCota** - Número da Especificação da Subcota. Há despesas cujo Tipo de Despesa necessita ter uma especificação mais detalhada (por exemplo, “Combustível”). O conteúdo deste dado representa o código desta especificação mais detalhada.
 
-> txtDescricaoEspecificacao - Descrição da Especificação da Subcota. Representa a descrição  especificação mais detalhada de um referido Tipo de Despesa.
+> **txtDescricaoEspecificacao** - Descrição da Especificação da Subcota. Representa a descrição  especificação mais detalhada de um referido Tipo de Despesa.
 
-> txtFornecedor - nome do fornecedor do produto ou serviço presente no documento fiscal
+> **txtFornecedor** - nome do fornecedor do produto ou serviço presente no documento fiscal
 
-> txtCNPJCPF - O conteúdo deste dado representa o CNPJ ou o CPF do emitente do documento fiscal, quando se tratar do uso da cota em razão do reembolso despesas comprovadas pela emissão de documentos fiscais
+> **txtCNPJCPF** - O conteúdo deste dado representa o CNPJ ou o CPF do emitente do documento fiscal, quando se tratar do uso da cota em razão do reembolso despesas comprovadas pela emissão de documentos fiscais
 
-> txtNumero - Número do documento. O conteúdo deste dado representa o número de face do documento fiscal emitido ou o número do documento que deu causa à despesa debitada na cota do deputado.
+> **txtNumero** - Número do documento. O conteúdo deste dado representa o número de face do documento fiscal emitido ou o número do documento que deu causa à despesa debitada na cota do deputado.
 
-> indTipoDocumento - Este dado representa o tipo de documento do fiscal – 0 (Zero), para Nota Fiscal; 1 (um), para Recibo; e 2, para Despesa no Exterior.
+> **indTipoDocumento** - Este dado representa o tipo de documento do fiscal – 0 (Zero), para Nota Fiscal; 1 (um), para Recibo; e 2, para Despesa no Exterior.
 
-> datEmissao - O conteúdo deste dado é a data de emissão do documento fiscal ou a data do documento que tenha dado causa à despesa
+> **datEmissao** - O conteúdo deste dado é a data de emissão do documento fiscal ou a data do documento que tenha dado causa à despesa
 
-> vlrDocumento - valor do documento emitido. Quando se tratar de bilhete aéreo, esse valor poderá ser negativo, significando que o referido bilhete é um bilhete de compensação, pois compensa um outro bilhete emitido e não utilizado pelo deputado (idem para o dado vlrLiquido abaixo)
+> **vlrDocumento** - valor do documento emitido. Quando se tratar de bilhete aéreo, esse valor poderá ser negativo, significando que o referido bilhete é um bilhete de compensação, pois compensa um outro bilhete emitido e não utilizado pelo deputado (idem para o dado vlrLiquido abaixo)
 
-> vlrGlosa -  representa o valor da glosa do documento fiscal que incidirá sobre o Valor do Documento, ou o valor da glosa do documento que deu causa à despesa
+> **vlrGlosa** -  representa o valor da glosa do documento fiscal que incidirá sobre o Valor do Documento, ou o valor da glosa do documento que deu causa à despesa
 
-> vlrLiquido - O seu conteúdo representa o valor líquido do documento fiscal ou do documento que deu causa à despesa e será calculado pela diferença entre o Valor do Documento e o Valor da Glosa. É este valor que será debitado da cota do deputado. Caso o débito seja do Tipo Telefonia e o valor seja igual a zero, significa que a despesa foi franqueada
+> **vlrLiquido** - O seu conteúdo representa o valor líquido do documento fiscal ou do documento que deu causa à despesa e será calculado pela diferença entre o Valor do Documento e o Valor da Glosa. É este valor que será debitado da cota do deputado. Caso o débito seja do Tipo Telefonia e o valor seja igual a zero, significa que a despesa foi franqueada
 
-> numMes - Mês da competência financeira do documento fiscal ou do documento que deu causa à despesa
+> **numMes** - Mês da competência financeira do documento fiscal ou do documento que deu causa à despesa
 
-> numAno -  Ano da competência financeira do documento fiscal ou do documento que deu causa à despesa
+> **numAno** -  Ano da competência financeira do documento fiscal ou do documento que deu causa à despesa
 
-> numParcela - representa o número da parcela do documento fiscal. Ocorre quando o documento tem de ser reembolsado de forma parcelada
+> **numParcela** - representa o número da parcela do documento fiscal. Ocorre quando o documento tem de ser reembolsado de forma parcelada
 
-> txtPassageiro - nome do passageiro, quando o documento que deu causa à despesa se tratar de emissão de bilhete aéreo
+> **txtPassageiro** - nome do passageiro, quando o documento que deu causa à despesa se tratar de emissão de bilhete aéreo
 
-> txtTrecho - trecho da viagem, quando o documento que deu causa à despesa se tratar de emissão de bilhete aéreo.
+> **txtTrecho** - trecho da viagem, quando o documento que deu causa à despesa se tratar de emissão de bilhete aéreo.
 
-> numLote - número do lote. Representa uma capa de lote que agrupa os documentos que serão entregues à Câmara para serem ressarcidos. Este dado, juntamente com o Número do Ressarcimento, auxilia a localização do documento no Arquivo da Casa.
+> **numLote** - número do lote. Representa uma capa de lote que agrupa os documentos que serão entregues à Câmara para serem ressarcidos. Este dado, juntamente com o Número do Ressarcimento, auxilia a localização do documento no Arquivo da Casa.
 
-> numRessarcimento -  indica o ressarcimento do qual o documento fez parte por ocasião do processamento do seu reembolso. 
+> **numRessarcimento** -  indica o ressarcimento do qual o documento fez parte por ocasião do processamento do seu reembolso. 
 
-> vlrRestituicao -  representa o valor restituído do documento fiscal que incidirá sobre o Valor do Documento.
+> **vlrRestituicao** -  representa o valor restituído do documento fiscal que incidirá sobre o Valor do Documento.
 
-> nuDeputadoId - Número que identifica um Parlamentar ou Liderança na Transparência da Cota para Exercício da Atividade Parlamentar.
+> **nuDeputadoId** - Número que identifica um Parlamentar ou Liderança na Transparência da Cota para Exercício da Atividade Parlamentar.
 
-> ideDocumento - id do documento  
+> **ideDocumento** - id do documento  
 
-> urlDocumento - URL de acesso ao documento emitido
+> **urlDocumento** - URL de acesso ao documento emitido
 
 
 # Despesas que podem ser pagas com a Cota Parlamentar
@@ -151,3 +151,8 @@ Nos 120 dias anteriores à data das eleições gerais e municipais, os deputados
 > A coluna urlDocumento possui 41% dos seus valores faltantes.
 
 As demais colunas com dados faltantes são praticamente irrisórias no universo amostral
+
+# Valores negativos nas colunas vlrDocumento e vlrLíquido
+
+Usando o método describe() conseguimos visualizar valores negativos nas colunas citadas. Buscando mais informações, descobrimos no dicionário que quando se tratar de bilhete aéreo, esse valor poderá ser **negativo**, significando que o referido bilhete é um bilhete de compensação, pois compensa um outro bilhete emitido e não utilizado pelo deputado (idem para o dado vlrLiquido abaixo).
+
