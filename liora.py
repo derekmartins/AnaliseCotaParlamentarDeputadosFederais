@@ -45,3 +45,10 @@ def trecho_viagem_recorrente(df):
 
 def extra_parlamentar_restituição(df):
     return df.groupby(['txtDescricao', 'txNomeParlamentar'])['vlrRestituicao'].sum().sort_values(ascending=False).head(10)
+
+
+#atribuir cada soma a uma variável e somar os três anos para chegar no valor final.
+def extra_montante_ativ_parlam(df):
+    return df[df['txtDescricao'] == 'DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.']['vlrLiquido'].sum()
+
+
