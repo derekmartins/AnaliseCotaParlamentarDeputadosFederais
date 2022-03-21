@@ -27,15 +27,15 @@ def quantidade_representantes_por_estado(df):
 
 def gráfico_correlacao_parlamentar_gastoporestado(df):
     
-return  x = df19i['txNomeParlamentar'].tolist()
-        y = vlre19['vlrDocumento'].tolist()
-        plt.scatter( x, y,color = 'b', marker = 'v')
-        plt.axis('auto')
-        plt.grid(True)
-        plt.xlabel('Quantidade de parlamentares')
-        plt.ylabel('Gasto por estado (em milhões)')
-        plt.title('Gasto por estado x numero de parlamentares')
-        plt.show()
+    return  x = df19i['txNomeParlamentar'].tolist()
+            y = vlre19['vlrDocumento'].tolist()
+            plt.scatter( x, y,color = 'b', marker = 'v')
+            plt.axis('auto')
+            plt.grid(True)
+            plt.xlabel('Quantidade de parlamentares')
+            plt.ylabel('Gasto por estado (em milhões)')
+            plt.title('Gasto por estado x numero de parlamentares')
+            plt.show()
 
 # ATRAVÉS DO CALCULO DA CORRELAÇÃO DE PEASON, DESCOBRIMOS NO DATAFRAME DE 2019 O INDICE DE: 0,98
 # LEGENDA CORRELAÇÃO DE PEARSON: QUANTO MAIS PRÓXIMO DE 1 ALTA CORRELAÇÃO POSITIVA E DIRETA, QUANTO MAIS 
