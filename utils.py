@@ -126,3 +126,10 @@ def configurar_yticks(df, ax, num_amostras, formato, base):
     ax.set_yticks(yticks)
     yticks = [formato.format(x/base) for x in yticks]
     ax.set_yticklabels(yticks)
+
+def buscar_por_cnpj(df, cnpj):
+    filtro = df.txtCNPJCPF == cnpj
+    return df[filtro]
+
+def paginacao(lista, pagina, num_amostras=50):  
+    return lista[(pagina-1)*num_amostras:pagina*num_amostras]
