@@ -6,10 +6,11 @@ Os políticos que possuem nossa confiança para exercer tomadas de decisões com
 Para isso o Estado baseado na Lei Orçamentária, separa uma quantia para exercício das Atividades Parlamentares.
 Para assegurar que o dinheiro está sendo utilizado de forma correta, as transações são documentadas e são disponibilizadas publicamente.
 A primeira etapa para exercício de Cidadania, é a conscientização da Comunidade, acerca dos gastos públicos.
-Com isso em mente, a nossa equipe foi chamada Procuradoria Geral da República, afim de investigar e conscientizar a população sobre os gastos dos parlamentares nos anos de 2019, 2020 e 2021.
+Com isso em mente, a nossa equipe foi chamada Procuradoria Geral da República, a fim de investigar e conscientizar a população sobre os gastos dos parlamentares nos anos de 2019, 2020 e 2021.
 
 
 ## Objetivo
+
 Investigar e Conscientizar a População sobre os Gastos dos Parlamentares nos anos de 2019, 2020 e 2021. Para isso, uma lista com as dúvidas mais frequentes foi criada, pode ser acessada [aqui](https://github.com/derekmartins/AnaliseCotaParlamentarDeputadosFederais/blob/main/Análise%20Final.ipynb), com o objetivo de facilitar o acesso à informação.
 
 Os arquivos que serão baixados e analisados se encontram [neste link.](https://drive.google.com/drive/u/0/folders/1H_uQc8UTzA1is3jjZjmrFRIabiOUHoIi)
